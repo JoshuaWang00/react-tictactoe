@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+body {
+	font-family: "Audiowide", sans-serif;
+	font-size: 2em;
+  }
+
+.o{color: red;}
+.x{color: blue;}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.turnTable{
+	text-align: center;
+	display: inline-block;
+	align-items: center;
+}
+
+table td {
+	border: 1px solid grey;
+	width: 100px;
+	height: 100px;
+	
+}
+
+table td:hover{
+	background-color: lightblue;
+	box-shadow: 1px 1px black;
+}
